@@ -13,6 +13,9 @@ $(call inherit-product, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
