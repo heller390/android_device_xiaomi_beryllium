@@ -6,6 +6,9 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+#Miui Camera
+$(call inherit-product, vendor/miuicamera/config.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 
